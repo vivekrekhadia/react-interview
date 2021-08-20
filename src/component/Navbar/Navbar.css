@@ -44,3 +44,7 @@
     width: 100%;
     background-color: gray;
 }
+
+.N-links:hover{
+    color: hotpink;
+}
