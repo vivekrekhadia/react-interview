@@ -1,3 +1,4 @@
+//This is a child component of Company whis has one input field
 import './Home.css'
 export const Employee = ({ value, setValue }) => {
     return (<div className="Home-container">

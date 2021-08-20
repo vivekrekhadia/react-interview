@@ -1,6 +1,7 @@
+//used useEffect and useState to get API
 import React, { useEffect, useState } from 'react';
 import './User.css'
-
+//made one another component for displaying only employeee name
 const Card = ({ user }) => {
   return (
     <div style={{ border: '1px solid black'}}>
@@ -11,7 +12,7 @@ const Card = ({ user }) => {
 
 const User = () => {
   const [users, setUsers] = useState([]);
-
+//API called
   useEffect(() => {
     fetch('http://dummy.restapiexample.com/api/v1/employees')
       .then((r) => r.json())
