@@ -1,5 +1,5 @@
 .navbar{
-    background-color: burlywood;
+    background-color: black;
     height: 70px;
     display: flex;
     justify-content: center;
@@ -17,23 +17,26 @@
      height: 70px;
      width: 100%;
      max-width: 150px;
+     
 }
 .nav-menu{
     display: flex;
     text-align: center;
     list-style: none;
     margin-right: 2rem;
+    
 
 }
 
 .N-links{
-    color: black;
+    color: white;
     text-decoration: none;
     height: 100%;
     padding: 0.5rem 1rem;
     border-bottom: 2px solid transparent;
 }
 .nav-i{
+    
     margin-right: 1rem;
     line-height: 50px
 }

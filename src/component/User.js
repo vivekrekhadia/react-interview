@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import './User.css'
 
 const Card = ({ user }) => {
   return (
-    <div style={{ border: '1px solid black' }}>
-      <h1>{user.employee_name}</h1>
+    <div style={{ border: '1px solid black'}}>
+      <h1 style={{ fontSize:'20'}}>{user.employee_name}</h1>
     </div>
   );
 };
@@ -19,7 +20,7 @@ const User = () => {
 
   return (
     <div>
-      <h1>User</h1>
+      <h1 style={{fontSize:'42px'}}>User</h1>
       {users.map((user) => (
         <Card key={user.id} user={user} />
       ))}
